@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+input[type="text"],
+input[type="password"] {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#accountBalance {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#transactionList {
+  list-style-type: none;
+  padding: 0;
+}
